@@ -1,0 +1,262 @@
+body { 
+background: #e7ebf2;
+min-width: 1250px;
+margin: 0 auto;  /* margin to center: 0px auto */
+padding: 0px 0px;
+line-height: 1.2em;         
+}
+
+#header {
+clear: both; 
+top:0px;
+min-width:100%;/*1050px;*/
+height:40px;
+position:fixed !important;
+background-color: #61686B;/*#00486e;*/
+background-image: url(http://jacobirw.in/img/bg.png);
+display: block;
+z-index:999;
+margin: 0 auto;
+opacity: 1;
+}
+#content {
+float:left;
+min-height: 940px;
+/** border-left: 2px solid #ccc; 
+border-right: 2px solid #ccc;**/
+min-width:700px;
+margin-top: 50px;
+margin-left: 20px;
+}
+#footer {
+background: #fff;
+font-size: 12px;
+border-top: 2px solid #ccc;
+position: relative;
+height: 50px;
+clear:both;
+width:940px;
+margin: 0 auto;
+padding: 0px 0px;
+}
+#leftWrap {
+margin-top: 60px;
+/**width: 155px;**/
+float: left;
+width: 130px;
+height: 560px;
+padding: 0px 8px;
+}
+#rightWrap {
+margin-top: 40px;
+position: relative;
+width: 100px;
+float:left;
+}
+#logo {
+height: 30px;
+width:200px;
+cursor: pointer;
+display: block;
+margin-left:20px
+}
+#logged_header{
+min-width:700px;
+float:right;
+}
+#profile_pic{
+width: 200px;
+height: 200px;
+}
+.group_profile_pic{
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+width: 50px;
+height: 70px;
+cursor: pointer;
+display: block;
+background: #000000;
+}
+.group{
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+margin: 4px 4px 4px 4px;
+border-bottom: 1px solid #e9e9e9;
+width: 500px;
+height: 70px;
+background: url("content_article_bg.jpg");
+cursor: pointer;
+display: block;
+}
+#friend_list{
+margin: 4px;
+margin-bottom: 8px;
+}
+.fancy {
+background: #00486e;
+-webkit-box-shadow: 0 2px 1px #AAAAAA;
+-webkit-border-radius: 10px;
+font-size: 1.1em;
+color: white;
+padding: 10px 8px;
+margin: 0 6px 6px 6px;
+text-align: center;
+}
+.fancy a {
+color: white;
+}
+.fancy a:hover {
+color: red;
+}
+.header{
+/*  background: #fff;
+-webkit-box-shadow: 0 2px 1px #AAAAAA;*/
+-webkit-border-radius: 10px;
+font-size: 2.1em;
+color: #003377;
+padding: 10px 8px;
+margin: 6px 6px 6px 6px;
+text-align: center;
+font-family: 'Oswald', sans-serif;
+background-position: center;
+}
+.small_header{
+background: #fff;
+-webkit-box-shadow: 0 2px 1px #AAAAAA;
+-webkit-border-radius: 10px;
+font-size: .8em;
+color: #003377;
+padding: 4px 1px;
+margin: 6px 6px 6px 6px;
+text-align: center;
+font-family: cursive;
+background-position: center;
+}
+a:hover {
+color: #1286ef;
+position: relative;
+left: 1px;
+top: 1px;
+}
+a {
+text-decoration: none;
+}
+a.uiButton {
+color: whitesmoke;
+background: #000;
+}
+.uiButton,.uiButtonSuppressed:active,.uiButtonSuppressed:focus,.uiButtonSuppressed:hover{
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #666666), color-stop(0.5, #003A3A), color-stop(0.5, #222222), color-stop(1.0, #FFFFFF));
+border: 1px solid #999;
+border-bottom-color: #888;
+box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+cursor: pointer;
+display: -moz-inline-box;
+display: inline-block;
+font-size: 11px;
+font-weight: bold;
+line-height: normal !important;
+padding: 2px 6px;
+text-align: center;
+text-decoration: none;
+vertical-align: top;
+white-space: nowrap;
+-webkit-border-radius: 10px;  
+margin: 5px;
+font-family: Geneva,Arial,Helvetica,sans-serif;
+}
+.crystal{
+background: #E7EBF2;
+font-size: 12px;
+}
+.friend_profile{
+width:518px;
+}
+#logged_header{
+float: right;
+}
+.uiSearch{
+background-image: url(http://localhost/real_jang/public/images/search.png);
+background-repeat: repeat;  
+}
+/* scrolling menus*/
+div.sc_menu_wrapper{
+overflow: auto;
+}
+.sc_menu a:hover {
+border-color: rgb(130, 130, 130);
+}
+/*loading message*/
+.sc_menu_wrapper .loading {
+position: absolute;
+top: 50px;
+left: 10px;
+margin: 0 auto;
+padding: 10px;
+width: 100px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+text-align: center;
+color: #fff;
+border: 1px solid rgb(79, 79, 79);
+background: #1F1D1D;
+}
+.fancy_background{
+background: url("http://localhost/real_meeting_meeting/public/images/ring.jpg");
+border-radius: 5px;
+}
+#category_all{
+margin-left:230px;
+position:fixed;
+}
+#open_category{
+position: fixed;
+color:#fff;
+margin-left:70px;
+}
+.category_tab{
+display: none;
+color:#fff;
+}
+.category_tab a{
+color:#fff;
+}
+#user_control_tab{
+/*position: fixed; */
+background: #58595b;
+/* width:200px;
+right: 420px;*/
+}
+#user_control_tab a{
+color:#fff;
+}
+.drop_container{
+position: absolute;
+float:right;
+}
+.login_button{
+position: absolute;
+background: #3F4247;
+width: 143px;
+color: white;
+font-weight: bold;
+opacity: 1;
+text-align: center;
+height: 38px;
+border-left: solid gray;
+font-size: 27px;
+}
+.invite_label{
+width: 143px;
+color: white;
+font-weight: bold;
+opacity: 1;
+text-align: center;
+height: 38px;
+font-size: 27px;
+}

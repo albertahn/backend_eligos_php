@@ -1,0 +1,195 @@
+#requests_right_wrap{
+    width:510px;
+    float:left;
+    
+}
+#requests_you_recieved{
+    float: left;
+    width:240px;
+    min-height: 400px;
+    color: white;
+  
+    border-radius: 9px;
+    
+    
+   
+}
+
+#requests_you_sent{
+  float: right;
+    width:240px;
+    
+    color: black;
+    border: 2px;
+    border-color: #000;
+    padding:2px;
+    
+    border-radius: 9px;
+    overflow: hidden; 
+  
+    color:white;
+   
+    
+    
+}
+
+#requests_you_sent img{
+    
+    width:20px;
+    height:20px;
+   background:#005554;
+   border-right: 2px solid #ccc; 
+   border-bottom: 2px solid #fff;
+   backgroud-image: url
+}
+
+#requests_you_sent li{
+    border:1px;
+    font-size: 10px;
+display: list-item; 
+list-style: none; 
+text-align: center; 
+float:left; 
+overflow:hidden;
+
+}
+
+
+requests_you_sent_box{
+    
+    
+}
+
+
+.accept_button img{
+    
+   
+    width:25px;
+   
+    border-radius:9px; 
+    text-align:center;
+float:right;
+}
+.accept_button{
+    
+   color: white;
+   border-radius:9px; 
+   overflow: hidden;
+width:161px;
+
+  
+    
+}
+.accept_button a{
+    
+   color: white;
+   border-radius:9px; 
+    
+}
+
+#friend_requests_chunk{
+    float:right;
+    
+    
+}
+
+#requests_left_wrap{
+    width:240px;
+    float:left;
+    
+}
+
+#product_requests{
+   
+    float: left;
+    width:240px;
+    height: 300px;
+    
+  
+    border-radius: 9px;
+    overflow:scroll;
+   
+    
+}
+
+
+#product_requests_you_sent{
+    font-size:14px;
+  float: left;
+    width:240px;
+    height:70px;
+    color: black;
+    
+    border-color: #000;
+   
+    
+    border-radius: 9px;
+    overflow: scroll; 
+  
+    color:white;
+   
+    
+    
+}
+
+#product_requests_you_sent img{
+    
+    width:20px;
+    height:20px;
+   background:#005554;
+   border-right: 2px solid #ccc; 
+   border-bottom: 2px solid #fff;
+   backgroud-image: url
+}
+#product_requests_you_sent li{
+    border:1px;
+    font-size: 10px;
+display: list-item; 
+list-style: none; 
+text-align: center; 
+float:left; 
+overflow:hidden;
+
+}
+
+#product_requests_accepted{
+    font-size:14px;
+  float: left;
+    width:240px;
+    height:70px;
+    color: black;
+   
+   
+   
+    
+    border-radius: 9px;
+    overflow: scroll; 
+  
+    color:white;
+   
+    
+    
+}
+#product_requests_accepted img{
+    
+    width:20px;
+    height:20px;
+   background:#005554;
+   border-right: 2px solid #ccc; 
+   border-bottom: 2px solid #fff;
+   
+   
+}
+
+#product_requests_accepted li{
+    
+    font-size: 10px;
+display: list-item; 
+list-style: none; 
+text-align: center; 
+float:left; 
+overflow:hidden;
+
+}
+
+

@@ -1,0 +1,15 @@
+.show_all th{
+    border:solid 1px #aaa;
+    
+}
+
+ .show_all td{
+     border:solid 1px #fff;
+    
+}
+
+ .show_all table{
+    
+    width:100%;
+}
+

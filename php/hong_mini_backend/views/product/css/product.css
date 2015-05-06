@@ -1,0 +1,91 @@
+
+.profile_block{
+    
+   
+    
+     background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #99ffff), color-stop(0.5, #0099ff), color-stop(0.5, #0099ff), color-stop(1.0, cyan));
+	
+       
+    
+}
+
+.small_profile_role_name{
+    
+    width: 20px;
+
+
+    
+}
+
+
+.small_profile_role_pic{
+    
+    width: 30px;
+    
+}
+
+#role_pic_all{
+    float:left;
+    
+    
+}
+
+
+.meeting_table tr{
+    
+  /**  border:solid #fff;**/
+}
+th, td{
+   
+     /* border:solid 1px #000;*/
+}
+
+
+
+.form_label{
+    
+   
+    font-size: 16px;
+   /* background: #E7EBF2;*/
+     
+    
+   margin-left:10px;
+   margin-right: 10px;
+    border-radius:10px;
+    
+}
+
+
+
+.form_label input{
+    
+    height:30px;
+    
+    margin-right: 40px;
+    
+    border-radius:10px;
+    width:400px;
+}
+
+.form_description{
+    
+   
+}
+
+.commentDiv{
+    width: 950px;
+background: #E7EBF2;
+font-size: 12px;
+}
+
+#map_cluster{
+    margin-top: 30px;
+    float:right;
+}
+
+#people_taking_course{
+    
+width: 300px;
+height: 200px;
+float: right;
+}

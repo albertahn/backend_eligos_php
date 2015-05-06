@@ -1,0 +1,171 @@
+.white_container{
+    
+    background: #fff;
+    min-height: 300px;
+}
+.profile_block{
+    
+   
+    
+     background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #99ffff), color-stop(0.5, #0099ff), color-stop(0.5, #0099ff), color-stop(1.0, cyan));
+	
+       
+    
+}
+
+.friend_profile{
+   width:100%;
+   background: #fff;
+}
+
+
+th, td{
+   /*border:solid;*/
+    text-align: center;
+}
+
+.product_tb_h{
+    color: #aaa;
+}
+.example_gradmap{
+   background:#f2f2f2 url('/public/images/gray_jean.png');
+   border-top: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+-webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+-moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+padding-bottom: 20px;
+}
+
+.divider_wood{
+    /*background:url('/public/images/wood_pattern.png');*/
+    background:rgba(156, 152, 152, 0.18);
+    border-radius:10px;
+    
+}
+
+#slider_example_map{
+    position:absolute;
+    top: -600px;
+    max-width: 1000px;
+}
+
+#slider_example_map{
+    width:100%;
+    color:#000;
+}
+
+#cam_dialog_pop a hover{
+    
+    text-decoration: none;
+}
+
+#user_blueprint_profile{
+    
+    position: relative;
+}
+
+.friend_status{
+    
+    margin: auto;
+}
+
+#my_majors_selected{
+    
+    border: solid 1px #ddd;
+
+}
+
+#all_major_select{
+    
+    border: solid 1px #ddd;
+
+    
+}
+
+.major_requirements{
+    
+    margin-left: 20px;
+}
+
+.schedule th{
+    
+    border:solid 1px #fff;
+}
+.schedule {
+    
+    font-size: 10px;
+}
+
+.major_box{
+    
+    height: 60px; 
+    width: 700px;
+    overflow: hidden;
+    top: 60px;
+font-size: 16px;
+    margin-top: 8px;
+margin-left: 15px;
+    float:left;
+    position: absolute;
+}
+
+.cluster{
+    
+    width: 1050px;
+margin: auto;
+}
+
+.year_select{
+    font-size: 12px;
+    width:50px;
+    height:20px;
+}
+.blueprint_insert_dialoga hover{
+    
+    text-decoration: none;
+    
+}
+
+#my_major_courses{
+     text-align: left;
+     border: solid 1px #ddd;
+}
+
+#all_my_courses{
+     text-align: left;
+     border: solid 1px #ddd;
+}
+
+.table th{
+    
+    
+}
+
+.commentName{
+    
+    margin-left: 10px;
+}
+
+.commentProPic{
+    
+    margin-left:10px;
+}
+
+.textPart{
+    
+    margin-left: 50px;
+}
+
+.classbp_inserted{    
+    font-size:11px;
+}
+
+.suggested_name{
+    
+    width: 50px;
+display: block;
+overflow: hidden;
+height: 20px;
+
+}

@@ -1,0 +1,18 @@
+#requirement_accordion{
+    
+    width:600px;
+    margin-left: 20px;
+}
+
+#major_description{
+    
+    margin-left:20px;
+}
+
+#people_in_major{
+    
+    position: absolute;
+top: 40px;
+right: 100px;
+width: 200px;
+}

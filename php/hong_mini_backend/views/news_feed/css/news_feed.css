@@ -1,0 +1,21 @@
+.news_members_pic{
+background:#005554;
+border-right: 2px solid #ccc; 
+border-bottom: 2px solid #fff; 
+border-radius: 10px;
+float:left;
+}
+
+li{
+    
+    margin-top: 40px;
+}
+
+.news_group_pic{
+    background:#005554;
+border-right: 2px solid #ccc; 
+border-bottom: 2px solid #fff; 
+border-radius: 10px;
+    
+    
+}

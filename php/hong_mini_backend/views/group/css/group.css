@@ -1,0 +1,50 @@
+ .intro {
+    color:#fff;
+   
+}
+ 
+.meetings_panel {
+    padding:2px 14px;
+    border:solid 1px #ebebe8;
+    background: #ebebe8;
+    color:black;
+    
+    
+}
+
+.members_panel{
+          padding:2px 14px;
+         border:solid 1px #ebebe8;
+         
+}
+
+.rank_panel{
+   padding:2px 14px;
+   border:solid 1px #ebebe8;
+   
+}
+
+.group_meetings_table{
+    
+}
+
+.group_members_table{
+  
+    
+}
+
+.group_ranking_table{
+    
+  
+    
+}
+
+#group_content{
+    
+    width:100%;
+    
+}
+
+th td{
+    
+}

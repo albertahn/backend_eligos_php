@@ -1,0 +1,47 @@
+#make_tickets{
+    border:solid #aaa 1px;
+    width:250px;
+     float:left;
+    
+}
+
+#current_tickets{
+    
+     border:solid #aaa 1px;
+     width:574px;
+     float:right;
+    
+}
+
+#current_tickets_table th{
+    border:solid #aaa 1px;
+    
+    
+    
+}
+
+a:hover img{
+        margin-left: 1px;
+	margin-top: 1px;
+}
+
+#edit_ticket_table th{
+    
+    border:solid #aaa 1px;
+}
+
+.people_table{
+    
+    width:500px
+}
+
+.people_table th{
+     border:solid #aaa 1px;
+   
+}
+
+.table_header th{
+    font-size:10px;
+    
+    
+}

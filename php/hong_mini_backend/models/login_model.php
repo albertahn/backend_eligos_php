@@ -30,8 +30,6 @@ class login_model extends model
             
             session::init();
             session::set('username',  $data['username']);
-            session::set('usertype',  $data['usertype']);
-            session::set('profile_picture',  $data['profile_picture']);
             session::set('index',  $data['index']);
             session::set('password',  $data['password']);
             session::set('loggedin', $data[`loggedin`]);

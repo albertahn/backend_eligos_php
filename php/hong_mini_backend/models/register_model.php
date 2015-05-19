@@ -117,7 +117,7 @@ class register_model extends model
            echo'{"error":"already_email"}';
            
         }else {
-    
+    /*
         if(!($data['profile_picture']=getimagesize($_FILES['file']['tmp_name']))){
              echo'{"error":"not_valid_img"}';
             
@@ -141,19 +141,21 @@ class register_model extends model
                                      echo '{"error":"file_not_uploaded'.$data['file_name'].'"}';
                                      
                                      
-                                    }
+                                    }*/
        
-        $stha = $this->db->prepare('INSERT INTO `members` (username, password, email, profile_picture, usertype)
-                                                    VALUES (:username, :password, :email, :profile_picture, :usertype)');
+        $stha = $this->db->prepare('INSERT INTO `members` (username, password, email,gold,cash)
+                                                    VALUES (:username, :password, :email,:gold,:cash)');
         
         
         $stha->execute(array(
             ':username' => $data['name'],
             ':password' =>hash::create('sha256', $data['password'], HASH_key),
             ':email' => $data['email'],
-            
-            ':profile_picture' => $new_file_name ,
-            ':usertype' => 'norm' 
+            ':gold' => 0,
+            ':cash' => 0
+            /*
+            ':profile_picture' => null, //$new_file_name ,
+            ':usertype' => 'norm' */
             ));
         
         $index = array('index'=> $this->db->lastInsertId());
@@ -181,5 +183,3 @@ class register_model extends model
     }
    
    
-
-}

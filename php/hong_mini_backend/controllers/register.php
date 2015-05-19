@@ -51,9 +51,7 @@ public function __construct() {
                     $data['password'] =  mysqli_real_escape_string($dbc, trim($_POST['password']));
                     $data['password2'] =  mysqli_real_escape_string($dbc, trim($_POST['password2']));
                     
-                    $data['profile_picture'] = mysqli_real_escape_string($dbc, trim($_FILES['file']['name']));
-                    $data['tmp_name']=  mysqli_real_escape_string($dbc, trim($_FILES['file']['tmp_name']));
-                    $data['pic_size']= mysqli_real_escape_string($dbc, trim($_FILES['file']['size'])); 
+                     
                     
                     //error checking
                     if(!empty($data['name']) && !empty($data['email'])&& !empty($data['password']))
